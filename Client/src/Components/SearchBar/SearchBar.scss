@@ -1,0 +1,18 @@
+.searchbar-container {
+  max-width: 550px;
+  display: flex;
+  width: 90%;
+  border: 1px solid var(--text-secondary);
+  border-radius: 8px;
+  padding: 12px 16px;
+  gap: 6px;
+
+  .search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    color: var(--text-secondary);
+    background-color: transparent;
+    font-size: 16px;
+  }
+}
