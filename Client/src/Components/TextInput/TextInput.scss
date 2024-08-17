@@ -1,0 +1,28 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .text-label {
+    font-size: 16px;
+  }
+  .text-input-container {
+    max-width: 1200px;
+    display: flex;
+    border: 1px solid var(--text-secondary);
+    border-radius: 8px;
+    padding: 12px 16px;
+    gap: 6px;
+    min-height: 50px;
+
+    .text-input {
+      resize: none;
+      border: none;
+      outline: none;
+      width: 100%;
+      color: var(--text-secondary);
+      background-color: transparent;
+      font-size: 16px;
+      font-family: "Poppins";
+    }
+  }
+}

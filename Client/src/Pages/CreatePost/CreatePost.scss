@@ -1,3 +1,24 @@
-.create-post-container{
-    height: 100%
+.create-post-container {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 30px 30px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background: var(--bg);
+
+  .create-post-wrapper {
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    gap: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 768) {
+      flex-direction: column;
+    }
+  }
 }

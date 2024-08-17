@@ -1,0 +1,44 @@
+.generate-image-form {
+  flex: 1;
+  padding: 16px 20px;
+  display: flex;
+  gap: 9%;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+
+  .form-header {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    .title {
+      font-size: 28px;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+    .description {
+      font-size: 17px;
+      font-weight: 500;
+      color: var(--text-secondary);
+    }
+  }
+
+  .form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--text-secondary);
+  }
+
+  .form-actions {
+    display: flex;
+    gap: 8px;
+
+    Button {
+      width: 100%;
+    }
+  }
+}
